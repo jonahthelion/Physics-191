@@ -1,2 +1,2 @@
 # Physics-191
-Physics 191 Data, Documentation and Reports
+Physics 191 data, documentation and reports
