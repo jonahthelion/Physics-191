@@ -1,6 +1,7 @@
 import numpy as np
 import csv
 import os
+import math
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
 import matplotlib as mpl
@@ -55,5 +56,8 @@ plt.show()
 hbar=1.05*10**(-34)
 e = 1.6*10**(-19)
 Y = data[:,2]/45.5*(10**9)
+B = .1192* data[:,0]
 plt.plot(B,Y)
-plt.plot(x, 2*Pi*hbar/(e**2)*x)
+Ynew = np.full(1000, 2*math.pi*hbar/(e**2))
+plt.plot(x, Ynew)
+plt.show()
