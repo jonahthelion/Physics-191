@@ -1,5 +1,5 @@
-# Physics-191
-Physics 191 data, documentation and reports
+# Physics-191 - Advanced Laboratory
+Physics 191 data, documentation and reports (Katie Fraser and Jonah Philion)
 
 ### Electron Spin Resonance
 [paper](https://github.com/jonahthelion/Physics-191/blob/master/ESR/ESR.pdf)
